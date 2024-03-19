@@ -13,6 +13,7 @@ export async function getManifest() {
     name: '__MSG_extName__',
     version: pkg.version,
     description: '__MSG_extDes__',
+    homepage_url: 'https://chrome.google.com/webstore/detail/json/mbcbnjkaeapmnikoghcpcmepbpbfdidk',
     action: {
       default_icon: './assets/icon-512.png',
       default_popup: './dist/popup/index.html',
